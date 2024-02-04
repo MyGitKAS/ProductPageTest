@@ -52,7 +52,6 @@ struct FeedbackView: View {
                 RoundedRectangle(cornerRadius: 50)
                     .stroke(Color.green, lineWidth: 2)
             )
-            //.buttonStyle()
         }
     }
 }
