@@ -10,8 +10,10 @@ import SwiftUI
 struct ProductOriginView: View {
     var body: some View {
         HStack{
-            Image(systemName: "network")
-                .font(.system(size: 35))
+            Image("flag_bel")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: screen.size.width * 0.1)
             Text("Беларусь, Минск")
             Spacer()
         }
@@ -23,3 +25,4 @@ struct ProductOriginView_Previews: PreviewProvider {
         ProductOriginView()
     }
 }
+
