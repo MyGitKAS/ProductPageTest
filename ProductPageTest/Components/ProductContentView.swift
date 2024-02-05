@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProductContentView: View {
     var body: some View {
-        ScrollView{
+        ScrollView(showsIndicators: false){
         VStack {
             HStack{
                 TopButtonView()
@@ -27,7 +27,6 @@ struct ProductContentView: View {
                 .padding(.top)
                 .padding(.bottom)
         }.padding(.horizontal)
-        
         }
     }
 }

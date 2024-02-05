@@ -30,6 +30,7 @@
 		3ED6CEC82B6F8100009F5685 /* PriceBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6CEC72B6F8100009F5685 /* PriceBarView.swift */; };
 		3ED6CECA2B6F811E009F5685 /* SelectCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6CEC92B6F811E009F5685 /* SelectCountView.swift */; };
 		3ED6CECC2B6F8148009F5685 /* PickerBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6CECB2B6F8148009F5685 /* PickerBarView.swift */; };
+		3ED6CEE82B6FB463009F5685 /* DiscountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6CEE72B6FB463009F5685 /* DiscountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		3ED6CEC72B6F8100009F5685 /* PriceBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceBarView.swift; sourceTree = "<group>"; };
 		3ED6CEC92B6F811E009F5685 /* SelectCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountView.swift; sourceTree = "<group>"; };
 		3ED6CECB2B6F8148009F5685 /* PickerBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBarView.swift; sourceTree = "<group>"; };
+		3ED6CEE72B6FB463009F5685 /* DiscountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				3ED6CEAC2B6F7EA6009F5685 /* ProductOriginView.swift */,
 				3ED6CEAE2B6F7ECE009F5685 /* TitleProductView.swift */,
 				3ED6CEB02B6F7F07009F5685 /* ProductBriefView.swift */,
+				3ED6CEE72B6FB463009F5685 /* DiscountView.swift */,
 				3ED6CEB22B6F7F31009F5685 /* TopBarView.swift */,
 				3ED6CEB42B6F7F5F009F5685 /* StarRatingView.swift */,
 				3ED6CEB62B6F7F8E009F5685 /* BottomBarView.swift */,
@@ -224,6 +227,7 @@
 				3ED6CEC82B6F8100009F5685 /* PriceBarView.swift in Sources */,
 				3ED6CEBD2B6F801C009F5685 /* MainFeaturesView.swift in Sources */,
 				3ED6CEC62B6F80E3009F5685 /* ValuePriceView.swift in Sources */,
+				3ED6CEE82B6FB463009F5685 /* DiscountView.swift in Sources */,
 				3ED6CEBF2B6F804B009F5685 /* DescriptionView.swift in Sources */,
 				3ED6CEC12B6F806D009F5685 /* ProductContentView.swift in Sources */,
 				3ED6CEB12B6F7F07009F5685 /* ProductBriefView.swift in Sources */,

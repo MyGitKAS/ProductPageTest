@@ -19,15 +19,7 @@ struct ProductBriefView: View {
                 .font(.system(size: Constants.titleText, weight: .light, design: .default))
                 .foregroundColor(.gray)
             Spacer()
-            ZStack{
-                Image(systemName: "seal.fill")
-                    .font(.system(size: 55))
-                    .foregroundColor(.red)
-                Text("-5%")
-                    .font(.system(size: Constants.titleText, weight: .bold, design: .default))
-                    .foregroundColor(.white)
-
-            }
+                DiscountView(discount: 5)
         }
     }
 }
